@@ -1,0 +1,42 @@
+    # for row in collection_view.collection.get_rows(search=subject):
+    #     for rij2 in calcTableBody:
+    #     print(rij2)
+    #     new_row = collection_view.collection.add_row()
+    #     new_row.Name = rij[0]
+    #     new_row.When = NotionDate(start=datetime.strptime(rij[1], "%Y-%m-%d %H:%M"),
+    #                               end=datetime.strptime(rij[2], "%Y-%m-%d %H:%M"),
+    #                               timezone=rij[3])
+    #     new_row.Type = 'Daily meeting'
+    #     new_row.Project = 'Python'
+# for c in calcTableBody:
+#     subject = c[0]
+#     for row in collection_view.collection.get_rows(search=subject):
+#         print(row.Name + ': ' + row.id)
+
+#     print(row.id)
+#
+# print(i)
+# for i in range(i-1):
+# for row in collection_view.collection.get_rows(search=subject):
+
+# name = row.Name
+# print(name)
+# for rij in NotionDate.to_notion(row.When):
+#     for k in rij[1]:
+#         for j in rij[1]:
+#             start_date_time = (k[1].get("start_date")) + ' ' + (k[1].get("start_time"))
+#             end_date_time = (k[1].get("end_date")) + ' ' + (k[1].get("end_time"))
+#             for i in calcTableBody:
+#                 if i[0] != name:
+#                     if i[1] != start_date_time and i[2] != end_date_time:
+#                         print(i)
+# for rij2 in calcTableBody:
+#     print(rij2)
+#     new_row = collection_view.collection.add_row()
+#     new_row.Name = rij[0]
+#     new_row.When = NotionDate(start=datetime.strptime(rij[1], "%Y-%m-%d %H:%M"),
+#                               end=datetime.strptime(rij[2], "%Y-%m-%d %H:%M"),
+#                               timezone=rij[3])
+#     new_row.Type = 'Daily meeting'
+#     new_row.Project = 'Python'
+NotionDate.to_notion(row.When)
